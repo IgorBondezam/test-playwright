@@ -1,0 +1,19 @@
+npm init playwright (or playwright@latest)
+
+npx playwright test -> roda todos os testes
+
+npx playwright test --project=chromium -> roda todos os testes em um navegador específico
+
+npx playwright test --headed -> roda os testes com a aba do navegador aberto(porém ao terminar o teste ele fecha)
+
+npx playwright test rodar_esse_arquivo.spec.ts  -> roda um arquivo específico de teste
+
+npx playwright test -g "rodar_um_unico_teste_pela_descricao"  -> roda um único teste pela descrição
+
+npx playwright test ui -> abre a interface gráfica do playwright
+
+npx playwright test --trace -> cria um html com o trace(video / print do que foi executado)
+
+npx playwright test --debug -> abre uma janela de debug como se fosse na tela do navegador
+
+npx playwright show-report -> abre um relatório em html dos testes que rodaram, deram erro ou skiparam
